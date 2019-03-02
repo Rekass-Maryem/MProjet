@@ -1,0 +1,99 @@
+<html>
+<head>
+  <link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="js/bootstrap.min.js"></script>
+  <link href="bootstrap-3.3.0/dist/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script href="bootstrap-3.3.0/dist/js/bootstrap.min.js"></script>
+  <meta charset="ISO-8859-1">
+  <link rel="stylesheet" href="Style.css" type="text/css"/>
+  <script language="Javascript" src="aut.js"></script>
+
+</head>
+
+  <body class="dark-edition">
+    <div class="wrapper ">
+      <div class="sidebar" data-color="green" data-background-color="black" >
+
+        <div class="logo">
+          <a href="" class="simple-text logo-normal">
+            Peaqock
+          </a><hr>
+        </div>
+        <div class="sidebar-wrapper">
+          <ul>
+              <li><a href="ajouter.html">Ajouter</a></li>
+              <li><a href="modifier.html">Modification</a></li>
+              <li><a href="liste.html">Listes</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="main-panel">
+        <!-- Navbar -->
+        <nav class="navbar navbar-light bg-light justify-content-between" id="nav">
+
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</nav>
+<div class="container">
+<div class="row">
+   <div class="col-md-8 offset-md-2">
+     <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Reference</th>
+        <th>Nom</th>
+        <th>Quantite</th>
+        <th>Prix Unitaire</th>
+        <th>Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>R123</td>
+        <td>Ordinateur</td>
+        <td>20</td>
+        <td>1000</td>
+        <td>12/21/2018</td>
+      </tr>
+      <tr>
+        <td>R234</td>
+        <td>Imprimante</td>
+        <td>10</td>
+        <td>800</td>
+        <td>12/16/2018</td>
+      </tr>
+
+    </tbody>
+  </table></div>
+
+      </div>
+
+      <div class="container">
+          <div class="col-xs-10 col-md-6 col-xs-offset-1 col-md-offset-3">
+             <div class="row">
+              	<nav aria-label="...">
+                  	<ul class="pager" role="tablist">
+                          <li class="previous" onclick="goTo(1);"><a href="#"><span aria-hidden="true"></span> &laquo;</a></li>
+                          <li class="active" id="first">
+                              <a aria-controls="tab1" data-toggle="tab" href="#tab1" role="tab">1</a>
+                          </li>
+                          <li>
+                              <a aria-controls="tab2" data-toggle="tab" href="#tab2" role="tab">2</a>
+                          </li>
+                          <li>
+                              <a aria-controls="tab3" data-toggle="tab" href="#tab3" role="tab">3</a>
+                          </li>
+                          <li>
+                              <a aria-controls="tab4" data-toggle="tab" href="#tab4" role="tab">4</a>
+                          </li>
+                          <li id="last">
+                              <a aria-controls="tab5" data-toggle="tab" href="#tab5" role="tab">5</a>
+                          </li>
+                          <li class="next" onclick="goTo(2);"><a href="#">&raquo; <span aria-hidden="true"></span></a></li>
+                      </ul>
+                  </nav>
+              </div>
+  </body>
+  </html>
